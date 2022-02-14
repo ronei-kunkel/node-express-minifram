@@ -47,7 +47,7 @@ The flow of creations are:
 3. controller
 4. route
 
-## To crate a new model
+### Create a new model
 1. Crate new folder inside route folder with name of group of routes, like `home`.
 2. Create a js file with the same name in folder newly created, like `home.js`.
 3. In the `home.js` you need make functions with return of json data and export the functions:
@@ -73,7 +73,7 @@ module.exports = {
 }
 ```
 
-## To create a new view
+### Create a new view
 1. In view folder you need to create the content html file.
 2. Need to include the template of header and footer and between of this includes you may create the code of module.
 ```html
@@ -88,7 +88,7 @@ module.exports = {
 ```
 3. If you need import more css or js files to your modules you may create more link and script tags in header and footer files respectively.
 
-## To create a new controller
+### Create a new controller
 1. You need create a new folder inside of controller folder, like `home`.
 2. Create a js file inside this new folder with the same name.
 3. In this file, in this case, `home.js` you need import the model, if you have, then if you need render a page you need create an function to do this and finally export this function, like this:
@@ -117,7 +117,7 @@ module.exports = {
 }
 ```
 
-## To create new route
+### Create new route
 1. Crate new folder inside route folder with name of group of routes, like `home`.
 2. Create a js file with the same name in folder newly created, like `home.js`.
 3. In this file, you need import express and instanciate the Router
