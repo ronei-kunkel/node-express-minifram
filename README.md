@@ -1,5 +1,5 @@
-# node-express-template
-MVC template architecture with some personal preferences to run in heroku.
+# node-express-minifram
+Mini mvc framework to run in heroku made with express.
 
 >Ok, but, how use it?
 
